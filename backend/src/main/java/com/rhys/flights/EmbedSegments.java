@@ -6,7 +6,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Projection(name = "embedSegment", types = Flight.class)
-public interface embedSegments {
+public interface EmbedSegments {
     Long getId();
     String getDepcode();
     String getArrcode();
